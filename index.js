@@ -1,13 +1,13 @@
 var randomNumber1 = Math.floor(Math.random()*6)+1;
 
-var randomDiceImage = "images/dice"+randomNumber1+".png";
+var randomDiceImage = "dice"+randomNumber1+".png";
 document.querySelectorAll("img")[0].setAttribute("src",randomDiceImage);
 
 
 
 var randomNumber2 = Math.floor(Math.random()*6)+1;
 
-var randomDiceImage2 = "images/dice"+randomNumber2+".png";
+var randomDiceImage2 = "dice"+randomNumber2+".png";
 document.querySelectorAll("img")[1].setAttribute("src",randomDiceImage2);
 
 
@@ -24,28 +24,3 @@ else if(randomNumber1>randomNumber2){
 
 
 
-
-
-// function randDice(){
-//
-//  if (randomNumber1===1)(
-//    document.querySelector("img1").setAttribute=("src","images/dice1");
-//  )
-//  else if (randomNumber1===2)(
-//    document.querySelector("img1").setAttribute=("src","images/dice2");
-//  )
-// else if (randomNumber1===3)(
-//    document.querySelector("img1").setAttribute=("src","images/dice3");
-//  )
-// else if (randomNumber1===4)(
-//    document.querySelector("img1").setAttribute=("src","images/dice4");
-//  )
-//  else if (randomNumber1===5)(
-//    document.querySelector("img1").setAttribute=("src","images/dice5");
-//  )
-// else if (randomNumber1===6)(
-//    document.querySelector("img1").setAttribute=("src","images/dice6");
-//  )
-//
-// }
-//
